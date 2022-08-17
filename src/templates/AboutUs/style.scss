@@ -1,0 +1,16 @@
+@import '../../variable';
+
+.about {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+
+        &__title {
+            font-size: 24px;
+            margin: 20 40px;
+        }
+    
+        &__subtitle {
+            margin: 20 40px;    
+        }
+    }
