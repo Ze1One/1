@@ -2,15 +2,17 @@ import React from 'react';
 
 import Button from 'react-bootstrap/Button';
 
-const ButtonComponent = (props) => {
-  const { label, buttonClick, id, btnStyle } = props;
+const ButtonComponent = ({label, buttonClick}) => {
+
 
   return (
-    <Button
-      variant={btnStyle}
-      onClick={() => buttonClick(id)}>
-        {label}
+    <Button 
+      class=" btn btn-outline-light"
+      onClick={() => buttonClick()}>
+      {label}
+    
     </Button>
+
   );
 };
 

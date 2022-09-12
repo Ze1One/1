@@ -1,0 +1,29 @@
+.bunner {
+    background-image: url("../../Images/Bunner/content-top-fon 1.png");
+    height: 747px;
+    width: 1600px;
+    position: center;
+
+    &__title {
+        padding: 217px 0 0 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        padding: 67px 0 0 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+
+}
